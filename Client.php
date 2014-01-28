@@ -60,13 +60,13 @@ class Client
             // Some nice output ;)
             echo '.';
             ob_flush();
-            flush();
 
             // Move to some direction
             $url = $state['playUrl'];
             $direction = $botObject->move($state);
             $state = $this->move($url, $direction);
         }
+        ob_end_clean();
     }
 
     private function getNewGameState()
