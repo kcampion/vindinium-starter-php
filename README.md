@@ -1,3 +1,7 @@
+Php starter pack for [vindinium](http://vindinium.org)
+
+Inspired by [vindinium-starter-python](https://github.com/ornicar/vindinium-starter-python)
+
 Should work with php5.3.* with CLI
 
 Libraries deps:
