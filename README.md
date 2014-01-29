@@ -16,5 +16,6 @@ Should work with php5.3.* with CLI.
 
 ## Examples:
 
-    php starter.php mySecretKey arena 10
-    php starter.php mySecretKey training 10 http://localhost:9000
+	php starter.php mySecretKey training 30
+    php starter.php mySecretKey arena 1
+    
